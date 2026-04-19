@@ -37,3 +37,24 @@ class Consultorio:
         print(f"Sucursal: {self.__sucursal}")
         print(f"Piso: {self.__piso}")
         print(f"Médico: {self.__medico}")
+        
+    def get_id_consultorio(self):
+        return self.__id_consultorio
+
+    def get_sucursal(self):
+        return self.__sucursal
+
+    def get_piso(self):
+        return self.__piso
+
+    def get_costo(self):
+        return self.__costo
+
+    def get_medico(self):
+        return self.__medico
+
+    def get_medicamentos(self):
+        return self.__medicamentos
+
+    def get_pacientes(self):
+        return self.__pacientes
