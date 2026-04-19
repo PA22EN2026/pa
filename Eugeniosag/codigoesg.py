@@ -31,3 +31,9 @@ class Consultorio:
         for i in self.__medicamentos:
             total = total + i["precio"]
         return total
+    
+    def info(self):
+        print(f"ID: {self.__id_consultorio}")
+        print(f"Sucursal: {self.__sucursal}")
+        print(f"Piso: {self.__piso}")
+        print(f"Médico: {self.__medico}")
