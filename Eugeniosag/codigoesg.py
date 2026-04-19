@@ -25,4 +25,9 @@ class Consultorio:
     def mostrar_pacientes(self):
         for paciente in self.__pacientes:
             print(paciente)
-        
+    
+    def costo_total(self):
+        total=0
+        for i in self.__medicamentos:
+            total = total + i["precio"]
+        return total
