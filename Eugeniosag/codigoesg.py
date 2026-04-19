@@ -58,3 +58,16 @@ class Consultorio:
 
     def get_pacientes(self):
         return self.__pacientes
+    
+    def set_sucursal(self, nueva_sucursal):
+        self.__sucursal = nueva_sucursal
+
+    def set_piso(self, nuevo_piso):
+        if nuevo_piso > 0:
+            self.__piso = nuevo_piso
+        else:
+            print("Piso inválido")
+            
+    def set_medico(self, nuevo_medico):
+        self.__medico = nuevo_medico
+
