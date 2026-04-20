@@ -45,6 +45,15 @@ class Actividades:
  
     def completar_tarea(self):
         self.__completada = True
-        
+
     def es_urgente(self):
         return self.__prioridad == 1 and not self.__completada
+
+tarea= Actividades ("Barrer la casa",20,1,False,"Mayte")
+tarea.info()
+print("\nLa prioridad es:", tarea.get_prioridad())
+tarea.set_prioridad(3)
+print("Nueva prioridad:", tarea.get_prioridad())
+tarea.completar_tarea()
+print("¿Es urgente?:", tarea.es_urgente())
+tarea.info()
