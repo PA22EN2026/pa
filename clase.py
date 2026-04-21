@@ -56,6 +56,9 @@ class Capibara:
         print(f"Color: {self.__color}")
         print(f"Hábitat: {self.__habitat}")
 
+capi1 = Capibara("Capi", 2, 35, "cafe", "rio")
+capi1.info()
+
     
 
 
