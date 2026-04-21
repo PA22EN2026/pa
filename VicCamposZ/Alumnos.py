@@ -45,3 +45,6 @@ class Alumnos:
         return "Es menor de edad"
      def cambiar_carrera(self, nueva_carrera):
         self.__carrera = nueva_carrera
+
+     def info(self):
+        return f"Matricula: {self.__matricula}, Nombre: {self.__nombre}, Carrera: {self.__carrera}, Semestre: {self.__semestre}, Edad: {self.__edad}"
