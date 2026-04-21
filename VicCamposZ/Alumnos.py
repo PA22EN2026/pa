@@ -11,7 +11,7 @@ class Alumnos:
      def get_matricula(self):
         return self.__matricula
  
-     def et_nombre(self):
+     def get_nombre(self):
         return self.__nombre
 
      def get_carrera(self):
@@ -48,3 +48,23 @@ class Alumnos:
 
      def info(self):
         return f"Matricula: {self.__matricula}, Nombre: {self.__nombre}, Carrera: {self.__carrera}, Semestre: {self.__semestre}, Edad: {self.__edad}"
+     
+alumno1 = Alumnos(123, "Victoria", "Programacion", 2, 18)
+
+print("Informacion")
+print(alumno1.info())
+
+
+print("Mayoria edad")
+print(alumno1.mayor_edad())
+print("*cambiar carrera*")
+alumno1.cambiar_carrera("Administracion")
+print(alumno1.info())
+print("Midificar alumno")
+alumno1.set_nombre("Abigail")
+alumno1.set_edad(19)
+print(alumno1.info())
+print("*Usando Getters*")
+print("Nombre:", alumno1.get_nombre())
+print("Edad:", alumno1.get_edad())
+print("Carrera:", alumno1.get_carrera())
