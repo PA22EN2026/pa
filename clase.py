@@ -39,3 +39,15 @@ class Capibara:
 
     def set_habitat(self, habitat):
         self.__habitat = habitat
+
+    def comer(self, cantidad):
+        self.__peso += cantidad
+        print(f"{self.__nombre} comió y ahora pesa {self.__peso} kg")
+
+    def crecer(self):
+        self.__edad += 1
+        print(f"{self.__nombre} ahora tiene {self.__edad} años")
+    
+    
+
+
