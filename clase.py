@@ -48,6 +48,15 @@ class Capibara:
         self.__edad += 1
         print(f"{self.__nombre} ahora tiene {self.__edad} años")
     
+    def info(self):
+        print("----- CAPIBARA -----")
+        print(f"Nombre: {self.__nombre}")
+        print(f"Edad: {self.__edad}")
+        print(f"Peso: {self.__peso} kg")
+        print(f"Color: {self.__color}")
+        print(f"Hábitat: {self.__habitat}")
+
     
+
 
 
