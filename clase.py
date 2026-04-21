@@ -73,6 +73,14 @@ capi1.set_peso(40)
 capi1.set_color("marron")
 capi1.set_habitat("laguna")
 
+capi1.info()
+
+print("\n--- METODOS ---")
+capi1.comer(3)
+capi1.crecer()
+
+print("\n--- FINAL ---")
+capi1.info()
 
 
 
