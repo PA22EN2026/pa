@@ -22,3 +22,18 @@ class Alumnos:
 
      def get_edad(self):
         return self.__edad
+     
+     def set_matricula(self, matricula):
+         self.__matricula = matricula
+     
+     def set_nombre(self, nombre):
+        self.__nombre = nombre
+
+     def set_carrera(self, carrera):
+        self.__carrera = carrera
+
+     def set_semestre(self, semestre):
+        self.__semestre = semestre
+
+     def set_edad(self, edad):
+        self.__edad = edad
