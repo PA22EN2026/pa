@@ -37,3 +37,11 @@ class Alumnos:
 
      def set_edad(self, edad):
         self.__edad = edad
+
+     def mayor_edad(self):
+      if self.__edad >= 18:
+        return "Es mayor de edad"
+      else:
+        return "Es menor de edad"
+     def cambiar_carrera(self, nueva_carrera):
+        self.__carrera = nueva_carrera
