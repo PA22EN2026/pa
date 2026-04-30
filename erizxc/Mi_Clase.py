@@ -5,6 +5,7 @@ class Mi_Clase:
         self.__num3 = num3
 
     def sumar(self):
+
         suma = self.__num1 + self.__num2 + self.__num3  
         return suma      
     
@@ -35,7 +36,11 @@ class Mi_Clase:
                 return self.__num3
     
     def iguales(self):
-        pass
+        
+        if self.__num1 == self.__num2 == self.__num3:
+            return True
+        else: 
+            return False
 
 
     #GETTERS 
