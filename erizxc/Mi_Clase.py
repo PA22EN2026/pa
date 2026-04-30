@@ -15,3 +15,12 @@ class Mi_Clase:
     def get_num3(self):
         return self.__num3
     
+    #SETTERS
+    def set_num1(self, num1):
+        self.__num1 = num1
+    
+    def set_num2(self, num2):
+        self.__num2 = num2
+
+    def set_num3(self, num3):
+        self.__num3 = num3
