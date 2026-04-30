@@ -68,3 +68,19 @@ class Mi_Clase:
 
     def set_num3(self, num3):
         self.__num3 = num3
+
+prueba1 = Mi_Clase(5, 4, 6)
+
+print(f"La suma es: {prueba1.sumar()}")
+print()
+
+print(f"El numero mayor es: {prueba1.mayor()}")
+print()
+
+print(f"El numero menor es: {prueba1.menor()}")
+print()
+
+print(f"Los numeros son iguales? {prueba1.iguales()}")
+print()
+
+print(f"Los numeros concatenados forman: {prueba1.concatenar()}")
