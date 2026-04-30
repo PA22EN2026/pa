@@ -41,6 +41,12 @@ class Mi_Clase:
             return True
         else: 
             return False
+        
+    def concatenar(self):
+        texto1 = str(self.__num1)
+        texto2 = str(self.__num2)
+        texto3 = str(self.__num3)
+        return texto1 + texto2 + texto3
 
 
     #GETTERS 
