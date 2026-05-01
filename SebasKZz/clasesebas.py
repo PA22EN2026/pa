@@ -23,3 +23,16 @@ def menor(self):
         return "El numero 2 es menor"
     else: 
         return "El numero 3 es menor"
+
+def iguales(self):
+    if self.__num1 == self.__num2 == self.__num3:
+        return True 
+    else: 
+        return False
+
+def concatenar(self):
+    txt1 = str(self.__num1)
+    txt2 = str(self.__num2)
+    txt3 = str(self.__num3)
+    suma = txt1 + txt2 + txt3
+    return suma
