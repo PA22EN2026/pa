@@ -36,3 +36,13 @@ def concatenar(self):
     txt3 = str(self.__num3)
     suma = txt1 + txt2 + txt3
     return suma
+
+@property
+def num1(self):
+    return self.__num1
+@property
+def num2(self):
+    return self.__num2
+@property 
+def num3(self):
+    return self.__num3
