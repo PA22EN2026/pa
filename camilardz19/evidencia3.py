@@ -3,4 +3,4 @@ class Mi_Clase:
         self.__num1 = num1
         self.__num2 = num2
         self.__num3 = num3
-      git commit -m "agregue mi clase"
+      
