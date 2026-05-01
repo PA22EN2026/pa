@@ -46,3 +46,13 @@ def num2(self):
 @property 
 def num3(self):
     return self.__num3
+
+@num1.setter
+def num1(self,valor):
+    self.__num1 = valor
+@num2.setter
+def num2(self,valor):
+    self.__num2 = valor
+@num3.setter
+def num3(self,valor):
+    self.__num3 = valor 
