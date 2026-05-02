@@ -19,7 +19,7 @@ class Mi_Clase:
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
     
-objeto = Mi_Clase(5, 10, 5)
+objeto = Mi_Clase(10, 10, 15)
 
 print("Suma: ", objeto.sumar())
 print("Mayor: ", objeto.mayor())
