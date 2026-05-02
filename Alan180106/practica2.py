@@ -1,0 +1,41 @@
+class Mi_clase:
+    def __init__(self,num1,num2,num3):
+        self.__num1 = num1
+        self.__num2 = num2
+        self.__num3 = num3
+        
+    def sumar(self):
+        return self.__num1 + self.__num2 + self.__num3
+    
+    def mayor(self):
+        if self.__num1 >= self.__num2 and self.__num1 >= self.__num3:
+            return self.__num1
+        elif self.__num2 >= self.__num1 and self.__num2 >= self.__num3:
+            return self.__num2
+        else:
+            return self.__num3
+        
+    def menor(self):
+        if self.__num1 <= self.__num2 and self.__num1 <= self.__num3:
+            return self.__num1
+        elif self.__num2 <= self.__num1 and self.__num2 <= self.__num3:
+            return self.__num2
+        else:
+            return self.__num3
+    
+    def iguales(self):
+        if self.__num1 == self.__num2 and self.__num2 == self.__num3:
+            return True
+        else:
+            return False
+
+    def concatenar(self):
+        return str(self.__num1) + str(self.__num2) + str(self.__num3)
+
+uso = Mi_clase(9,4,12)
+
+print (f'Suma: {uso.sumar()}')
+print (f'El numero mayor es: {uso.mayor()}')
+print (f'El numero menor es: {uso.menor()}')
+print (f'Los numeros son iguales?: {uso.iguales()}')
+print (f'Concatenacion de los numeros: {uso.concatenar()}')
