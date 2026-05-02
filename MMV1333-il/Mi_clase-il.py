@@ -65,8 +65,9 @@ class Mi_clase:
         return print(f"El resultado de los numero concatenados es {concat}")
     
 #prueba de las funciones 
-prueba = Mi_clase(8,5,2)
+prueba = Mi_clase(3,5,15)
 prueba.sumar()
 prueba.mayor()
+prueba.menor
 prueba.igual()
 prueba.concatenar
