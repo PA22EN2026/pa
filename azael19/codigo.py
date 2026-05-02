@@ -6,3 +6,10 @@ class Mi_clase:
     def sumar(self):
         suma = self.__num1 + self.__num2 + self.__num3
         print("Suma:", suma)
+    def mayor(self):
+        if self.__num1 >= self.__num2 and self.__num1 >= self.__num3:
+            print("Mayor:", self.__num1)
+        elif self.__num2 >= self.__num1 and self.__num2 >= self.__num3:
+            print("Mayor:", self.__num2)
+        else:
+            print("Mayor:", self.__num3)
