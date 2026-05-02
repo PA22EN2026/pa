@@ -28,3 +28,15 @@ class Mi_Clase:
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
     
+obj = Mi_Clase(19, 65, 23)
+
+print("Suma:", obj.sumar())
+print("Mayor:", obj.mayor())
+print("Menor:", obj.menor())
+
+if obj.iguales():
+    print("Son iguales")
+else:
+    print("No son iguales")
+
+print("Concatenacion:", obj.concatenar())
