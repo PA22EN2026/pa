@@ -63,3 +63,4 @@ class Mi_clase:
     def concatenar(self):
         concat = str(self.__num1) + str(self.__num2) + str(self.__num3)
         return print(f"El resultado de los numero concatenados es {concat}")
+    
