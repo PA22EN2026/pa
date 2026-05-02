@@ -50,3 +50,14 @@ class Miclase:
 
     def set_num3(self, numero):
         self.__num3 = numero
+
+
+
+valores = Miclase(10, 8, 8)
+
+print(f"La suma es: ", valores.sumar())
+print(f"El numero mayor es: ", valores.mayor())
+print(f"El numero menor es: ", valores.menor())
+print(f"Los numeros son iguales? ", valores.iguales())  
+print(f"La concatenacion es: ", valores.concatenar())
+
