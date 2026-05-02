@@ -68,6 +68,6 @@ class Mi_clase:
 prueba = Mi_clase(3,5,15)
 prueba.sumar()
 prueba.mayor()
-prueba.menor
+prueba.menor()
 prueba.igual()
-prueba.concatenar
+prueba.concatenar()
