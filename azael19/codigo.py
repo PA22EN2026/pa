@@ -28,3 +28,5 @@ class Mi_clase:
     def concatenar(self):
         concatenacion = str(self.__num1) + str(self.__num2) + str(self.__num3)
         print("Concatenación:", concatenacion)
+
+objeto = Mi_clase(10,20,30)
