@@ -51,3 +51,12 @@ class Mi_clase:
             return print(f"El numero menor es {self.__num2}")
         else:
             return print(f"El numero menor es {self.__num3}")
+        
+    #funcion igual
+    def igual(self):
+        if self.__num1 == self.__num2 and self.__num1 == self.__num3:
+            return print(True)
+        else:
+            return print(False)
+        
+    
