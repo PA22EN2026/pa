@@ -64,3 +64,9 @@ class Mi_clase:
         concat = str(self.__num1) + str(self.__num2) + str(self.__num3)
         return print(f"El resultado de los numero concatenados es {concat}")
     
+#prueba de las funciones 
+prueba = Mi_clase(8,5,2)
+prueba.sumar()
+prueba.mayor()
+prueba.igual()
+prueba.concatenar
