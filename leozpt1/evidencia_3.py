@@ -21,3 +21,6 @@ class Mi_Clase:
 
     def set_num3(self,valor):
         self.__num3 = valor
+
+    def sumar(self):
+        return self.__num1 + self.__num2 + self.__num3
