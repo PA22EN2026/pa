@@ -31,3 +31,11 @@ class Mi_clase:
 
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
+
+uso = Mi_clase(9,4,12)
+
+print (f'Suma: {uso.sumar()}')
+print (f'El numero mayor es: {uso.mayor()}')
+print (f'El numero menor es: {uso.menor()}')
+print (f'Los numeros son iguales?: {uso.iguales()}')
+print (f'Concatenacion de los numeros: {uso.concatenar()}')
