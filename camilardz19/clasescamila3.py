@@ -49,6 +49,15 @@ print("Mayor:", obj.mayor())
 print("Menor:", obj.menor())
 print("¿Son iguales?:", obj.iguales())
 print("Concatenación:", obj.concatenar())
-    
+
+obj.set_num1(20)
+obj.set_num2(20)
+obj.set_num3(20)
+
+print("\nDespués de cambiar valores:")
+print("Num1:", obj.get_num1())
+print("Num2:", obj.get_num2())
+print("Num3:", obj.get_num3())
+print("¿Son iguales?:", obj.iguales())
 
 
