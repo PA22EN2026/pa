@@ -9,3 +9,15 @@ class Mi_Clase:
     
     def mayor(self):
         return max(self.__num1, self.__num2, self.__num3)
+    
+    def menor(self):
+        return min(self.__num1, self.__num2, self.__num3)
+    
+    def iguales(self):
+        return self.__num1 == self.__num2 == self.__num3
+    
+    def concatenar(self):
+        return str(self.__num1) + str(self.__num2) + str(self.__num3)
+    
+objeto = Mi_Clase(5, 10, 5)
+
