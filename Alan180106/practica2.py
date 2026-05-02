@@ -1,2 +1,3 @@
 class Mi_clase:
-    pass
+    def __init__(self,num1,num2,num3):
+        pass
