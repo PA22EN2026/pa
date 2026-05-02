@@ -21,3 +21,8 @@ class Mi_Clase:
     
 objeto = Mi_Clase(5, 10, 5)
 
+print("Suma: ", objeto.sumar())
+print("Mayor: ", objeto.mayor())
+print("Menor: ", objeto.menor())
+print("¿Son iguales?: ", objeto.iguales())
+print("Concatenar: ", objeto.concatenar())
