@@ -7,3 +7,10 @@ class Mi_Clase:
 
     def sumar(self):
         return self.__num1 + self.__num2 + self.__num3
+    def mayor(self):
+        if self.__num1 >= self.__num2 and self.__num1 >= self.__num3:
+            return self.__num1
+        elif self.__num2 >= self.__num1 and self.__num2 >= self.__num3:
+            return self.__num2
+        else:
+            return self.__num3
