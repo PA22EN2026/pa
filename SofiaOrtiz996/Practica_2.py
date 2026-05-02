@@ -1,2 +1,1 @@
 class Mi_Clase:
-    
