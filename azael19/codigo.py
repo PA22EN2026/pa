@@ -20,4 +20,3 @@ class Mi_clase:
             print("Menor:", self.__num2)
         else:
             print("Menor:", self.__num3)
-    
