@@ -32,6 +32,21 @@ class Miclase:
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
 
-    
-        
-     
+
+    def get_num1(self):
+        return self.__num1
+
+    def set_num1(self, numero):
+        self.__num1 = numero
+
+    def get_num2(self):
+        return self.__num2
+
+    def set_num2(self, numero):
+        self.__num2 = numero
+
+    def get_num3(self):
+        return self.__num3
+
+    def set_num3(self, numero):
+        self.__num3 = numero
