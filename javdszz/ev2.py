@@ -56,3 +56,10 @@ class Mi_clase:
     @num3.setter
     def num3(self,valor):
         self.__num3 = valor 
+
+nums = Mi_clase(8,4,11)
+print(f"La suma de dichos numeros es: ", nums.sumas())
+print(f"El numero mayor es: ", nums.mayor())
+print(f"El numero menor es: ", nums.menor())
+print(f"¿Los numeros son iguales?: ", nums.iguales())
+print(f"Numeros concatenados: ", nums.concatenar())
