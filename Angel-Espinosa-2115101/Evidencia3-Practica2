@@ -22,3 +22,12 @@ class Mi_Clase:
     
     def setNum1(self, valor):
         self.__num3 = valor
+
+    def sumar(self,num1, num2, num3, resultado):
+        num1 = float(input("Ingrese el primer numero a sumar: "))
+        num2 = float(input("Ingrese el segundo numero a sumar:"))
+        num3 = float(input("Ingrese el tercer numero a sumar:"))
+        resultado = num1+num2+num3
+        print(resultado)
+
+    
