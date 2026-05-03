@@ -6,4 +6,8 @@ class Mi_clase:
 
     def sumar(self):
         suma = self.__num1 + self.__num2 + self.__num3
-        return suma
+        return print(f"La suma los numeros es: {suma}")
+    
+    def mayor(self):
+        if self.__num1 > self.__num2 and self.__num1 > self.__num3:
+            print(f"El numero mayor es: {self.__num1}")
