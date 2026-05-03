@@ -31,9 +31,9 @@ class Mi_Clase:
         return resultado
 
     def mayor(self, num1, num2, num3):
-        num1 = float(input("Ingrese el primer numero a sumar: "))
-        num2 = float(input("Ingrese el segundo numero a sumar:"))
-        num3 = float(input("Ingrese el tercer numero a sumar:"))
+        num1 = float(input("Ingrese el primer numero a comparar: "))
+        num2 = float(input("Ingrese el segundo numero a comparar:"))
+        num3 = float(input("Ingrese el tercer numero a comparar:"))
         if num1 > num2:
             if num1 > num3:
                print("El numero 1 es el mayor")
@@ -44,4 +44,16 @@ class Mi_Clase:
         else:
             print("El numero 3 es el mayor")
                  
-    
+    def menor(self, num1, num2, num3):
+        num1 = float(input("Ingrese el primer numero a comparar: "))
+        num2 = float(input("Ingrese el segundo numero a comparar:"))
+        num3 = float(input("Ingrese el tercer numero a comparar:"))
+        if num1 < num2:
+            if num1 < num3:
+               print("El numero 1 es el menor")
+            else:
+                print("El numero 3 es el menor")
+        elif num2 < num3:
+            print("El numero 2 es el menor")
+        else:
+            print("El numero 3 es el menor")
