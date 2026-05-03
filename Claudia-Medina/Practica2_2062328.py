@@ -14,5 +14,13 @@ class Mi_Clase:
             el_mayor=self.__num3
         return el_mayor
     
+    def menor(self):
+        el_menor=self.__num1
+        if self.__num2> el_menor:
+            el_menor=self.__num2
+        if self>el_menor:
+            el_menor=self.__num3
+        return el_menor
+    
         
         
