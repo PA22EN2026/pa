@@ -16,3 +16,9 @@ class Mi_Clase:
     
     def setNum2(self, valor):
         self.__num2 = valor
+
+    def getNum3(self):
+        return self.__num3
+    
+    def setNum1(self, valor):
+        self.__num3 = valor
