@@ -22,5 +22,9 @@ class Mi_Clase:
             el_menor=self.__num3
         return el_menor
     
+    def iguales(self):
+        return(self.__num1==self.__num2 or self.__num1==self.__num3 or self.__num2 or self.__num3)
+    
+    
         
         
