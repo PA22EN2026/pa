@@ -21,3 +21,6 @@ class Practica:
 
     def set_num3(self,num3):
         self.__num3=num3
+
+def sumar(self):
+    return self.__num1 + self.__num2 + self.__num3
