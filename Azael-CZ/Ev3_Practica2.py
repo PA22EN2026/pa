@@ -23,3 +23,9 @@ class Mi_clase:
             print(f"El numero menor es: {self.__num2}")
         elif self.__num3 < self.__num2 and self.__num3 < self.__num1:
             print(f"El numero menor es: {self.__num3}") 
+
+    def iguales(self):
+        if self.__num1 == self.__num2 and self.__num1 == self.__num3 and self.__num2 == self.__num3:
+            print("Los tres numeros son iguales")
+        else:
+            print("Los tres numeros no son iguales")
