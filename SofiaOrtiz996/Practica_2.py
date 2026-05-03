@@ -30,3 +30,9 @@ class Mi_Clase:
                 num_menor=self.__num2
             else:
                 num_menor=self.__num3
+    
+    def iguales(self):
+        if self.__num1==self.__num2 and self.__num1==self.__num3 and self.__num2==self.__num3:
+            print("Son iguales")
+        else:
+            print ("no son iguales")
