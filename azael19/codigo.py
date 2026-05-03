@@ -30,3 +30,10 @@ class Mi_clase:
         print("Concatenación:", concatenacion)
 
 objeto = Mi_clase(10,20,30)
+
+print("Primer intento")
+objeto.sumar()
+objeto.mayor()
+objeto.menor()
+objeto.iguales()
+objeto.concatenar()
