@@ -40,3 +40,11 @@ class Mi_Clase:
     
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
+    
+objeto = Mi_Clase(40, 100, 200)
+
+print("La suma:", objeto.sumar())
+print("El mayor:", objeto.mayor())
+print("El menor:", objeto.menor())
+print("Son iguales?:", objeto.iguales())
+print("Concatenado:", objeto.concatenar())
