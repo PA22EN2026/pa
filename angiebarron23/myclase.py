@@ -34,3 +34,5 @@ print("Mayor:", obj.mayor())
 print("Menor:", obj.menor())
 print("¿Son iguales?:", obj.iguales())
 print("Concatenación:", obj.concatenar())
+
+# Fin del programa
