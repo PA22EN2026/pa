@@ -31,4 +31,12 @@ def mayor(self):
         elif self._num2 >= self.num1 and self.num2 >= self._num3:
             return self.__num2
         else:
+            return self.__num3 
+
+def menor(self):
+        if self._num1 <= self.num2 and self.num1 <= self._num3:
+            return self.__num1
+        elif self._num2 <= self.num1 and self.num2 <= self._num3:
+            return self.__num2
+        else:
             return self.__num3
