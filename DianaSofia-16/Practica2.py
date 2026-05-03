@@ -21,3 +21,10 @@ class Mi_Clase:
             return False
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
+
+prueba = Mi_Clase(10, 10, 10)
+print(f"La suma es: {prueba.sumar()}")
+print(f"El mayor es: {prueba.mayor()}")
+print(f"El menor es: {prueba.menor()}")
+print(f"¿Los números son iguales?: {prueba.iguales()}")
+print(f"Concatenar números: {prueba.concatenar()}")
