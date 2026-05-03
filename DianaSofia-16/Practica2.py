@@ -12,3 +12,5 @@ class Mi_Clase:
             return self.__num2
         else:
             return self.__num3
+    def menor(self):
+        return min(self.__num1, self.__num2, self.__num3)
