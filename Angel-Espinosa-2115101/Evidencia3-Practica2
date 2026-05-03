@@ -68,4 +68,13 @@ class Mi_Clase:
         else:
             print("Los numeros no son iguales")
             igualdad = False
-            
+
+    def concatenar(self, num1, num2, num3, resultado):
+        num1 = float(input("Ingrese el primer numero: "))
+        num2 = float(input("Ingrese el segundo numero:"))
+        num3 = float(input("Ingrese el tercer numero:"))
+        num1 = str(num1)
+        num2 = str(num2)
+        num3 = str(num3)
+        resultado = num1+num2+num3
+        return resultado
