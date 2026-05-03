@@ -18,6 +18,7 @@ class Mi_Clase:
                 num_mayor=self.__num2
             else:
                 num_mayor=self.__num3
+        return num_mayor
     
     def menor(self):
         if self.__num1<self.__num2:
@@ -30,6 +31,7 @@ class Mi_Clase:
                 num_menor=self.__num2
             else:
                 num_menor=self.__num3
+        return num_menor
     
     def iguales(self):
         if self.__num1==self.__num2 and self.__num1==self.__num3 and self.__num2==self.__num3:
