@@ -9,19 +9,19 @@ class Mi_clase:
         return print(f"La suma los numeros es: {suma}")
     
     def mayor(self):
-        if self.__num1 > self.__num2 and self.__num1 > self.__num3:
+        if self.__num1 >= self.__num2 and self.__num1 >= self.__num3:
             print(f"El numero mayor es: {self.__num1}")
-        elif self.__num2 > self.__num1 and self.__num2 > self.__num3:
+        elif self.__num2 >= self.__num1 and self.__num2 >= self.__num3:
             print(f"El numero mayor es: {self.__num2}")
-        elif self.__num3 > self.__num2 and self.__num3 > self.__num1:
+        elif self.__num3 >= self.__num2 and self.__num3 >= self.__num1:
             print(f"El numero mayor es: {self.__num3}")
 
     def menor(self):
-        if self.__num1 < self.__num2 and self.__num1 < self.__num3:
+        if self.__num1 <= self.__num2 and self.__num1 <= self.__num3:
             print(f"El numero menor es: {self.__num1}")
-        elif self.__num2 < self.__num1 and self.__num2 < self.__num3:
+        elif self.__num2 <= self.__num1 and self.__num2 <= self.__num3:
             print(f"El numero menor es: {self.__num2}")
-        elif self.__num3 < self.__num2 and self.__num3 < self.__num1:
+        elif self.__num3 <= self.__num2 and self.__num3 <= self.__num1:
             print(f"El numero menor es: {self.__num3}") 
 
     def iguales(self):
@@ -48,3 +48,11 @@ class Mi_clase:
         return self.__num3
     def set_num3 (self, num3):
         self.__num3 = num3
+
+numeros = Mi_clase(10,15,10)
+
+numeros.sumar()
+numeros.mayor()
+numeros.menor()
+numeros.iguales()
+numeros.concatenar()
