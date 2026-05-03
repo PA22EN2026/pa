@@ -36,3 +36,6 @@ class Mi_Clase:
             print("Son iguales")
         else:
             print ("no son iguales")
+    
+    def concatenar (self):
+        return str(self.__num1)+str(self.__num2)+str(self.__num3)
