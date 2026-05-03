@@ -4,3 +4,9 @@ class Mi_Clase:
         self.__num1 = num1
         self.__num2 = num2
         self.__num3 = num3
+
+    def getNum1(self):
+        return self.__num1
+    
+    def setNum1(self, valor):
+        self.__num1 = valor
