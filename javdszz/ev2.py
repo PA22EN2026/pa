@@ -36,3 +36,23 @@ class Mi_clase:
         txt3 = str(self.__num3)
         suma = txt1 + txt2 + txt3
         return suma
+
+     @property
+    def num1(self):
+        return self.__num1
+    @property
+    def num2(self):
+        return self.__num2
+    @property 
+    def num3(self):
+        return self.__num3
+
+    @num1.setter
+    def num1(self,valor):
+        self.__num1 = valor
+    @num2.setter
+    def num2(self,valor):
+        self.__num2 = valor
+    @num3.setter
+    def num3(self,valor):
+        self.__num3 = valor 
