@@ -18,3 +18,15 @@ class Mi_Clase:
                 num_mayor=self.__num2
             else:
                 num_mayor=self.__num3
+    
+    def menor(self):
+        if self.__num1<self.__num2:
+            if self.__num1<self.__num3:
+                num_menor=self.__num1
+            else:
+                num_menor=self.__num3
+        else:
+            if self.__num2<self.__num3:
+                num_menor=self.__num2
+            else:
+                num_menor=self.__num3
