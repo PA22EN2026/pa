@@ -1,3 +1,4 @@
+#Profe ya tenía el código pero no sabía como acceder al repositorio del grupo y le pedí ayuda a unos compañeros
 class Mi_Clase:
     def __init__(self, num1, num2, num3):
         self.__num1 = num1
@@ -23,3 +24,7 @@ class Mi_Clase:
 
     def set_num3(self, valor):
         self.__num3 = valor
+    
+  # Métodos
+    def sumar(self):
+        return self.__num1 + self.__num2 + self.__num3
