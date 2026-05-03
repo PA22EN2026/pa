@@ -21,3 +21,4 @@ class Numeros:
             return self.__num2
         else:
             return self.__num3
+        
