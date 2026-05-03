@@ -3,3 +3,23 @@ class Mi_Clase:
         self.__num1 = num1
         self.__num2 = num2
         self.__num3 = num3
+
+ # Getters
+    def get_num1(self):
+        return self.__num1
+
+    def get_num2(self):
+        return self.__num2
+
+    def get_num3(self):
+        return self.__num3
+    
+ # Setters
+    def set_num1(self, valor):
+        self.__num1 = valor
+
+    def set_num2(self, valor):
+        self.__num2 = valor
+
+    def set_num3(self, valor):
+        self.__num3 = valor
