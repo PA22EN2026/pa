@@ -30,7 +30,8 @@ class Mi_Clase:
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
     
-print("*** PRIMERA PRUEBA DE Mi_Clase ***\n")
+print("*** PRUEBAS DE Mi_Clase ***\n")
+
 print("Creando objeto con valores (1, 7, 13)")
 obj = Mi_Clase(1, 7, 13)
 print(f"Suma: {obj.sumar()}")
@@ -54,3 +55,5 @@ print(f"Mayor: {obj3.mayor()}")
 print(f"Menor: {obj3.menor()}")
 print(f"Iguales: {obj3.iguales()}")
 print(f"Concatenar: {obj3.concatenar()}")
+
+print("\n*** FIN DE LA PRUEBAS ***")
