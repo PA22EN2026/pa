@@ -20,4 +20,13 @@ class Mi_Clase:
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
     
 
-    
+
+# pruebas del código
+
+mi_clase = Mi_Clase(8, 12, 8)
+
+print("Suma:", mi_clase.sumar())
+print("Mayor:", mi_clase.mayor())
+print("Menor:", mi_clase.menor())
+print("¿Son iguales?:", mi_clase.iguales())
+print("Concatenación:", mi_clase.concatenar())  
